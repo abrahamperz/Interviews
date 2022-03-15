@@ -1,0 +1,17 @@
+
+Bash Scripting
+- echo ${CONF}
+- grep : grep "word" file.txt
+- awk  : 
+  - vertical:   awk '{print $1}' file.txt
+  - horizontal: awk 'FNR == 2 {print}' file.txt
+
+- sed  : sed -i 's/Direction/Direction;/g;s/,$//' tmp
+- tail : 
+- cat  : cat tmp > ${CONF}.log
+- tee  : | tee -a 
+- head : head -n 5 file.txt (first 5 lines)
+- tail : tail -n 2 file.txt last 2 lines
+
+pipe |
+redirect >>

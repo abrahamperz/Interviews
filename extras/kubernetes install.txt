@@ -1,0 +1,38 @@
+Your Kubernetes control-plane has initialized successfully!
+
+To start using your cluster, you need to run the following as a regular user:
+
+  mkdir -p $HOME/.kube
+  sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+  sudo chown $(id -u):$(id -g) $HOME/.kube/config
+
+Alternatively, if you are the root user, you can run:
+
+  export KUBECONFIG=/etc/kubernetes/admin.conf
+
+You should now deploy a pod network to the cluster.
+Run "kubectl apply -f [podnetwork].yaml" with one of the options listed at:
+  https://kubernetes.io/docs/concepts/cluster-administration/addons/
+
+Then you can join any number of worker nodes by running the following on each as root:
+
+kubeadm join 10.219.107.232:6443 --token q5d3ub.k7mzyfir8dsccb9a \
+        --discovery-token-ca-cert-hash sha256:d6a53b434be991c2fc9b39e579d8d33ffef4dd42654f7bc83b82438c86fdb2e4
+[root@GDC3200-28T069T local]#
+
+
+
+kubectl apply -k ${INTEL_DEVICE_PLUGINS_SRC}/deployments/qat_dpdk_app/test-crypto1
+kubectl apply -k ${INTEL_DEVICE_PLUGINS_SRC}/deployments/qat_dpdk_app/test-compress1
+kubectl logs qat-dpdk-test-crypto-perf-tc1
+kubectl logs qat-dpdk-test-compress-perf-tc1
+
+ cat /proc/swaps
+
+Filename                                Type            Size            UsedPriority
+/dev/dm-0                               partition       4194300         0  -2
+
+
+[root@GDC3200-28T069T ~]# swapoff /dev/dm-0
+
+kubectl cluster-info

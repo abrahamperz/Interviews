@@ -1,0 +1,28 @@
+Stack;
+ 
+Insert of delete for the top
+LIFO: last in first out
+
+>>> stack = ["Amar", "Akbar", "Anthony"]
+>>> stack.append("Ram")
+>>> stack.append("Iqbal")
+>>> ['Amar', 'Akbar', 'Anthony', 'Ram', 'Iqbal']
+>>> print(stack.pop())
+>>> ['Amar', 'Akbar', 'Anthony', 'Ram']
+
+push/pop
+
+Queue:
+Insert of rear   //final
+Delete for front //inicio
+
+
+FIFO /first out, first out
+
+
+>>> queue = ["Amar", "Akbar", "Anthony"]
+>>> queue.append("Ram")
+>>> queue.append("Iqbal")
+>>> ['Amar', 'Akbar', 'Anthony', 'Ram', 'Iqbal']
+>>> (queue.pop(0))
+>>> ['Akbar', 'Anthony', 'Ram', 'Iqbal']

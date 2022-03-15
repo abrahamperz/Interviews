@@ -1,0 +1,47 @@
+Computer architecture
+- Central Processing Unit can have multiple cores
+  - Each core has a control unit, arithmetic and logic unit and various registers
+	- Control Unit: Input/Ouputs regulates and integrates operations 
+	- ALU: Mathematical and logical operations
+	- Registers: Small fast storage/accesible location. Some have specific functions, read-only or write-only. (ASM)
+  - Memory and graphics controllers are built into CPU:
+	- Memory controllers: Circuit that manages the flow of data going to and from the computers main memory
+	- Graphics controllers: Proccesses the graphics received by computer and creates dots and lines on the screen to generate a picture
+
+- Base clock frecuency os provided by a crystal oscillator
+- CPU can adjust its clocks speed dynamically
+
+Performance
+- Large codebases.
+- Non-code assets, like binaries or graphics.
+- Code dependencies, particularly across components.
+
+
+Bash Scripting
+- echo ${CONF}
+- grep : grep "word" file.txt
+- awk  : 
+  - vertical:   awk '{print $1}' file.txt
+  - horizontal: awk 'FNR == 2 {print}' file.txt
+
+- sed  : sed -i 's/Direction/Direction;/g;s/,$//' tmp
+- tail : 
+- cat  : cat tmp > ${CONF}.log
+- tee  : | tee -a 
+- head : head -n 5 file.txt (first 5 lines)
+- tail : tail -n 2 file.txt last 2 lines
+
+c++
+
+Development and implementation of system software to verify CPU architectural and micro-architectural features.
+
+·       Develop tools, infrastructure, processes and flows to root cause logical bugs in CPUs.
+
+·       Debug silicon issues on hardware and emulator.
+
+·       Works on related projects and/or assignments as needed.
+
+In this position, you will perform CPU post-silicon debug for the next generation of AMD’s flagship CPU products. 
+The applicant will learn: modern AMD X86 CPU architecture, debug tools,  methodologies and processes.
+
+CPU Post-Silicon 

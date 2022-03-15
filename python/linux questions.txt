@@ -1,0 +1,70 @@
+linux
+
+uname -a /all
+uname -r /kernel
+
+ls -a show all
+-r recursive
+- .
+
+mount
+act
+cp/rm/ head 10 lines, tail 10 lines
+
+ps
+top
+kill pid
+mount/dev- Kernel linux
+uname -r
+
+/bin binaries for exectials for (curl,ls)
+/sbin system binaroes, root user (mount)
+/local binaries manually $PATH enviremont
+/etc editable text configuration
+/home users
+/boot files to boot the system
+/dev devices files, hardware/drivers
+/opt optoinal software
+/var variable files cache
+/tmp temporary reboot
+/proc create it in memory by kernel to track running process
+
+- Current ip adress
+ ifconfig
+
+- Disk space
+df -ah 
+
+- How do you manage services/ start stop service
+systemctl status udev
+
+- size of directory
+du -sh /folder
+
+- How do you check open ports?, ports listening
+netstat -tulpn 
+
+- Check CPU for process
+ps aux | grep <process> or top or "htop" cores, memory etc
+
+- Mount
+ls /mnt 
+mount /dev/sda2 /mnt
+
+- Mount automataclly at boot
+
+less /etc/fstab and change the unique
+
+- Chech something that you do not know
+man <command>
+
+-Copy
+scp [OPTION] [user@]SRC_HOST:]file1 [user@]DEST_HOST:]file2
+
+Systemctl
+start one time
+enable at boot time
+init: first process init his responsabile
+ip route show
+
+journalctl 

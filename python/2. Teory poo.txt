@@ -1,0 +1,21 @@
+Class: template for create objects
+Object is an instance of a Class
+
+State: It is represented by the attributes of an object. eat, sleep
+Behavior: It is represented by the methods of an object. Breed, age, color
+Identity: Name
+
+__init__
+Constructor initializar object (assign values)
+
+__del__
+destructores
+
+Inheritance/Herencia
+Heredete atributtes for fhater class
+
+Encapsulation
+Private variable, avoid change data
+
+Polymorphism
+the same function (name) can works in differents scenearios len(string,list)

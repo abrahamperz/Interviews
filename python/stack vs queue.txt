@@ -1,0 +1,25 @@
+Stack; 
+Insert of delete for the top
+LIFO: last in first out
+
+stack = []
+stack.append(0)
+stack.append(1)
+stack.append(2)
+#stack [0, 1, 2]
+stack.pop()
+#stack [0, 1]
+
+
+Queue:
+Insert of rear   //final
+Delete for front //inicio
+
+FIFO /first out, first out
+queque = []
+queque.append(0)
+queque.append(1)
+queque.append(2)
+#queque [0, 1, 2]
+queque.pop(0)
+#queque [1, 2]

@@ -1,0 +1,9 @@
+"C:\Program Files\Docker\Docker\DockerCli.exe" -SwitchDaemon
+docker run -it -v D:\Documentos\SemestresTec\9no-semestre\cs107sysdev\:/workspace cs107sysdev/ubuntu /bin/bash
+
+docker run -it -v D:\Documentos\SemestresTec\9no-semestre\cs107sysdev\:/workspace philhawthorne/docker-influxdb-grafana:latest /bin/bash
+
+docker build -t image_expiration:latest .
+
+
+docker run -it -v /home/:/workspace expiration:lastest /bin/bash

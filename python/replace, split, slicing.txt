@@ -1,0 +1,24 @@
+Replace
+
+a = "Hello, World!"
+print(a.replace("H", "J"))
+
+split
+
+a = "Hello, World!"
+print(a.split(",")) # returns ['Hello', ' World!']
+
+Get the characters from position 2, and all the way to the end:
+
+>>> b = "Hello, World!"
+>>> print(b[2:])
+>>> llo, World!
+
+
+From: "o" in "World!" (position -5)
+
+To, but not included: "d" in "World!" (position -2):
+
+>>> b = "Hello, World!"
+>>> print(b[-5:-2])
+>>> orl

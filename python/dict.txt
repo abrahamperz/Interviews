@@ -1,0 +1,40 @@
+array = [1,2,3]
+
+a.append(3) last
+a.remove(#value not posicion)
+a.insert(pos,value)
+a.pop(#position) ()last
+
+set = {}
+a.append(#num) //last
+a.pop(position) //()first
+
+Tu
+
+LinkedList vs ArrayList
+
+Array uniform adress variable [1,1,1,1,1,1]
+Linkedlist no uniform [0,0,1,0,1,0]
+
+Hashset: 1 value
+Hashmap: key & value
+
+s="abcadbc"
+
+def new(s):
+    dict={}
+    size=len(s)
+    for i in range(size):
+        key = s[i]
+        if key not in dict:
+            dict[key] = 1
+        else:
+            dict[key] = dict[key] -1
+    #print(dict)
+
+    for key,value in dict.items():
+        if (value == 1):
+            print(key)
+            break
+
+new(s)
