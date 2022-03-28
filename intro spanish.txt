@@ -1,0 +1,19 @@
+Mi nombre es Abraham Perez
+
+Estoy por terminar la carrera de Mecatronica a finales de mayo, en mi Universidad
+funde el equipo de robotica el cual hemos tenido participacion en competencias
+internacionales y mi proyecto de la carrera es el protitpo de una camioneta
+autonoma.
+
+He tenido experiencia laboral como Intern en empresas como
+HP e Intel, en las cuales he trabajado con systemas linux, Ubuntu, Centos, Redhad, uso
+de contenedores, scripting, desarrollo de codigo principalmente en python siguiendo
+el estilo de guia PEP8/utf8, haciendo pruebas unit test e integracion continua con Jenkins
+
+El año pasado tuve la oportunidad de realizar una estancia de Investigacion en
+Harvard en un departamento de Medicina, en el cual mi principal funcion era brindar
+herramientas en software para que los investigadores tuvieran herramientas en su entorno.
+
+Actualmente estoy realizando un Diplomado en UDG con colaboracion con Oracle Guadalajara, 
+Oswaldo Rojas Cloud Support Database, Global Customer Support
+

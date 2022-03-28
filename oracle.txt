@@ -1,0 +1,125 @@
+Oracle Cloud: Oracle database
+- Servidores
+- Almacenamiento
+- Redes
+- Aplicaciones 
+IaaS Infraestructura de servicio
+PaaS Plataforma de servicio  (Cloud nube)
+SaaS Software de servicio
+DaaS datos como servicio 
+
+http:TCP/IP based protocol that allows web-based communications and exchange data (browser)
+
+Request:
+- Start line: Method path/to/file http version
+
+- Method:command that tells the server what to do GET/POST
+- URI set of readable characters and a way to locate the resource (path/to/file.ext)
+- Headers: Specify information and rules
+
+
+Response
+- Start line: Http version Status code
+- http/version and status code (200 ok) / 404 file not found
+
+- Headers : Host www.website.com
+accept: text/html
+accept: language:en-us  
+
+Networking basics
+Lan
+- IP: adress to specify machines 
+- Switch: Devide to forwards data in the netwkork
+- Router: is a networking device that forwards data packets beetween diferrent computer networks
+- Gateway: ip adress of router
+- Subnet: defines your local area network range
+ 192.168.10.20 -- 4 octetos 1111111
+subnet 255.255.0.0
+anyway with 192.168.x.x 
+
+Router -> Wan
+Wan
+- firewall: set rulles to protect network from unauthorized access
+
+- nat: Network adress translation is a method of remmaping an IP address while
+they are in transit across a traffic routing device
+- dmz demilitarized zone: subnet that contains and exposes a device to an untrusted
+- port forwarding: Designed a specific port
+
+DNS Domain name system
+
+Resolves domain names to IP adresses
+DNS server convert name to adress  
+
+local -> provedor de internet -> root server (13 in the world) 
+tdl server -> autoritative name services 
+Monitor: Bandwith, latency
+
+
+SQL (quaery) 
+select *
+from order_items
+where (
+quantity * unit_price
+= > :total
+
+create function total_paid (
+quantity integer, unit_Price number
+
+sql macros
+
+Table 19.6
+Scalar 21c
+
+function
+
+Blockchain: multiples transacciones 
+crypto graphies 
+
+blocks contain information
+Data: From, to, amount
+Hash: finger print, unique, un cambio el hash cambia totalmente
+Hash of previous block: 
+
+proof of work: 
+Distributed: P2P network, anyone is allow to join
+Medical records
+Collecting taxes
+
+Docker
+Dockerfile 
+
+
+"C:\Program Files\Docker\Docker\DockerCli.exe" -SwitchDaemon
+docker run -it -v D:\Documentos\SemestresTec\9no-semestre\cs107sysdev\:/workspace cs107sysdev/ubuntu /bin/bash
+
+docker run -it -v D:\Documentos\SemestresTec\9no-semestre\cs107sysdev\:/workspace philhawthorne/docker-influxdb-grafana:latest /bin/bash
+FROM ubuntu18
+workdir
+copy
+run
+
+
+
+Jenkins, pipelilne with grovy
+Hudson integración continua en java para contenedores
+Terraform shell para aws, google, azure, oracle
+
+Intel
+2 proyectos
+- CrystalRidge, fisicamente son dims donde los configuras en volatil/no volatil y añades un nuevo nivel de memoria
+Performance en diferentes distros, ubuntu, centos, redhat
+//Mount disco almacenamiento o volatil checar latencias, badwith
+
+- QAT: Tecnologia que  mejora el desempeño de algortimos, compresion y encriptación. Probar en VM's
+e instalar el cluster en el servidor, attach/detach, kubernets
+
+Hp
+Implement local repositories into docker containers
+Use jenkins para integracion continua usando pipelines, con grovyy, es un interprete
+
+Tec - Conacyt
+Laboratorios virtuales 
+python, apache y node red
+con ngrok publicaba el localhost de la computadora, en el puerto 1880
+

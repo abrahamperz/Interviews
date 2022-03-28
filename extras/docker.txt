@@ -1,4 +1,5 @@
 "C:\Program Files\Docker\Docker\DockerCli.exe" -SwitchDaemon
+
 docker run -it -v D:\Documentos\SemestresTec\9no-semestre\cs107sysdev\:/workspace cs107sysdev/ubuntu /bin/bash
 
 docker run -it -v D:\Documentos\SemestresTec\9no-semestre\cs107sysdev\:/workspace philhawthorne/docker-influxdb-grafana:latest /bin/bash
@@ -7,3 +8,9 @@ docker build -t image_expiration:latest .
 
 
 docker run -it -v /home/:/workspace expiration:lastest /bin/bash
+
+"C:\Program Files\Docker\Docker\DockerCli.exe" -SwitchDaemon
+Enable-WindowsOptionalFeature -Online -FeatureName $("Microsoft-Hyper-V", "Containers") -All
+
+
+docker run -it -v C:\TensorflowObjectDetectionApiTrainingInDocker:/workspace pim /bin/bash

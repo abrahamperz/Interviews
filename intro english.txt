@@ -1,0 +1,30 @@
+My name is Abraham Perez.
+
+I am about to finish my Mechatronics degree at the end of May, at my University
+founded the robotics team which we have participated in 
+international competitions and my career project is the prototype of an
+autonomous car.
+
+I have had work experience as an Intern in companies such as
+HP and Intel, in which I have worked with Linux systems, Ubuntu, Centos, Redhad, I use
+containerization, scripting, code development mainly in python following
+the PEP8/utf8 style guide, doing unit tests and continuous integration with Jenkins
+
+Last year I had the opportunity to do a research Internship at
+Harvard in a department of Medicine, in which my main function was to provide
+tools in software so that researchers have tools in their environment.
+
+Currently I am taking a certificate/diplmado in UDG with Oracle collaboration, the main professor is Oswaldo Rojas
+
+Developer Services LowCode, AppDev, Infrascture as a code
+Applications Serviless, App Integration
+Analytis Bussiness Analyrics, Analysis
+Data/ AI AI Services, Big data, messaging
+Databases Oracle databases and Nosql and Mysql
+
+Governance & administration: Cloud Operations, Security, Monitoring
+Infraestructure //containers/vm ware/ storage/ baremetal/ networkin
+
+Commerncia
+Goverment
+Microsoft Interconnect Azure
