@@ -7,7 +7,7 @@ autonoma.
 
 He tenido experiencia laboral como Intern en empresas como
 HP e Intel, en las cuales he trabajado con systemas linux, Ubuntu, Centos, Redhad, uso
-de contenedores, scripting, desarrollo de codigo principalmente en python siguiendo
+regular expresions in bash, contenedores, scripting, desarrollo de codigo principalmente en python siguiendo
 el estilo de guia PEP8/utf8, haciendo pruebas unit test e integracion continua con Jenkins
 
 El año pasado tuve la oportunidad de realizar una estancia de Investigacion en
@@ -17,3 +17,19 @@ herramientas en software para que los investigadores tuvieran herramientas en su
 Actualmente estoy realizando un Diplomado en UDG con colaboracion con Oracle Guadalajara, 
 Oswaldo Rojas Cloud Support Database, Global Customer Support
 
+
+Developer Services LowCode, AppDev, Infrascture as a code
+Applications Serviless, App Integration
+Analytis Bussiness Analyrics, Analysis
+Data/ AI AI Services, Big data, messaging
+Databases Oracle databases and Nosql and Mysql
+
+Governance & administration: Cloud Operations, Security, Monitoring
+Infraestructure //containers/vm ware/ storage/ baremetal/ networkin
+
+Commerncia
+Goverment
+Microsoft Interconnect Azure
+
+procesamiento de arreglos
+ins instance

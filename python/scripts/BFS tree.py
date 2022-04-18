@@ -4,17 +4,20 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
+
 class Solution:
     def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
         if root is None:
             return []
-
+        sum=0
         queue=[root]
         next_level=[]
         level=[]
         result=[]
         while queue:
             for root in queue:
+                sum+=root.val
                 level.append(root.val)
                 if root.left is not None:
                     next_level.append(root.left)
@@ -27,6 +30,3 @@ class Solution:
             next_level=[]
 
         return result
-
-
-        

@@ -1,3 +1,6 @@
+Join 
+union =''.join(list)
+
 Replace
 
 a = "Hello, World!"

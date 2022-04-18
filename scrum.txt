@@ -1,0 +1,11 @@
+Stand up
+- In progress, In review, on hold, blocked, done
+
+Grooming/Refinemed
+ - Backlog items will be discussed 
+
+Planning
+- Agree with the goal for the sprint and select stories from backlog
+
+Retrospective
+-  (Feedback)

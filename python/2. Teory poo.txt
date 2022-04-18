@@ -1,5 +1,6 @@
 Class: template for create objects
 Object is an instance of a Class
+Instance: Object variables or attributes
 
 State: It is represented by the attributes of an object. eat, sleep
 Behavior: It is represented by the methods of an object. Breed, age, color
@@ -19,3 +20,11 @@ Private variable, avoid change data
 
 Polymorphism
 the same function (name) can works in differents scenearios len(string,list)
+
+Join 
+union =''.join(list)
+
+Replace
+
+a = "Hello, World!"
+print(a.replace("H", "J"))
