@@ -15,7 +15,8 @@ Harvard en un departamento de Medicina, en el cual mi principal funcion era brin
 herramientas en software para que los investigadores tuvieran herramientas en su entorno.
 
 Actualmente estoy realizando un Diplomado en UDG con colaboracion con Oracle Guadalajara, 
-Oswaldo Rojas Cloud Support Database, Global Customer Support
+Oswaldo Rojas Cloud Support Database, Global Customer Support, donde he tenido acercamiento
+con Terraform y Kubernetes
 
 
 Developer Services LowCode, AppDev, Infrascture as a code

@@ -1,0 +1,31 @@
+Clase: Template para crear objetos
+Objeto Instancia de la clase
+Constructor: inicializador de objetos
+
+Herencia: reutilizacion de codigo, crear relaciones de objetos padres herando 
+a objetos hijos estructura y comportamiento
+
+Encapsulacion:
+Es la forma de proteger ocular las propiedades de objetos
+Publico: Todos pueden acceder a los datos
+Protected: SOlo accesibles en su clase o subclase
+Privado: Solo en la misma clase
+
+Clase abstracta: Su metodo no tiene implementacion y el comportamiento lo define 
+la clase que lo hereda
+
+Interfaces: Definen lo que una clase que la implemente debe hacer, 
+mas no la forma como lo hara lo cual su clase sera completamente abstracta
+
+Poliformismo: Capacidad de objetos de comportarse de multiples formas de acuerdo a su 
+herencia
+
+Sobrecarga: Tener un metodo con el mismo nombre pero diferentes parametros
+
+Static: Una clase, metodo o campo declarado como estatico puede ser 
+accedido o invocado sin la necesidad de tener que instanciar le objeto
+
+Exepciones: erros: problemas graves, expetion, no definitivas, run exxecption, durante la ejecucion
+
+
+Exepciones ccon try-catch-finally
